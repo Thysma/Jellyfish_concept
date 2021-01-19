@@ -17,3 +17,162 @@
   src: url(fonts/circular-medium.otf);
   font-weight: 500;
 }
+
+body
+{
+  margin: 0;
+  font-family: Circular;
+  font-weight: 400
+}
+
+#home
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  background-image: url(img/jellyhome.png);
+  background-position: center;
+}
+
+#top_bar
+{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px
+}
+
+#logo_basket
+{
+  margin-right: 15px
+}
+
+.thumbnail
+{
+  width: 33px;
+}
+
+h1
+{
+  font-family: baskerville-display-pt, serif;
+  color: #FFF;
+  font-size: 60px;
+  text-align: center;
+}
+
+.discover
+{
+  display: none;
+}
+
+#bot_bar
+{
+  width: 90%;
+  display: flex;
+}
+
+.facebook
+{
+  width: 50px;
+  left: 0;
+  padding-bottom: 20px
+}
+
+.down_arrow
+{
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  transform: rotate(90deg);
+  margin-left: calc(50vw - 90px)
+}
+
+.infos
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px
+}
+
+h2
+{
+  font-size: 20px;
+  color: #011842;
+  text-align: center;
+  margin: 20px 40px
+}
+
+#img_ferme
+{
+  width: 300px;
+  height: 230px;
+  background-image: url(img/ferme.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+}
+
+#img_aquarium
+{
+  width: 300px;
+  height: 230px;
+  background-image: url(img/aqua.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+}
+
+#img_entretien
+{
+  width: 300px;
+  height: 230px;
+  background-image: url(img/sea.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 10px;
+  display: flex;
+}
+
+
+.infos button
+{
+  color: #FFF;
+  font-size: 15px;
+  height: 40px;
+  width: 250px;
+  border: solid 1px #FFF;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: auto;
+  margin-top: 175px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+h3
+{
+  font-size: 15px;
+  color: #011842;
+  text-align: center;
+  margin: 20px 20px
+}
+
+.infos ul
+{
+  font-weight: 700;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  color: #FFF;
+  font-size: 17px;
+  line-height: 2.5;
+  margin-top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
