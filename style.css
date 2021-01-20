@@ -18,7 +18,8 @@
   font-weight: 500;
 }
 
-html {
+html
+{
   scroll-behavior: smooth;
 }
 
@@ -88,7 +89,6 @@ h1
 .facebook
 {
   width: 50px;
-  left: 0;
   padding-bottom: 20px
 }
 
@@ -96,9 +96,12 @@ h1
 {
   width: 50px;
   height: 50px;
-  justify-content: center;
   transform: rotate(90deg);
-  margin-left: calc(50vw - 90px)
+}
+
+#bot_bar a
+{
+  margin-left: calc(50vw - 90px);
 }
 
 .infos
@@ -123,6 +126,7 @@ h2
   height: 230px;
   background-image: url(img/ferme.jpg);
   background-size: cover;
+  background-position: center;
   border-radius: 10px;
   display: flex;
 }
@@ -133,6 +137,7 @@ h2
   height: 230px;
   background-image: url(img/aqua.jpg);
   background-size: cover;
+  background-position: center;
   border-radius: 10px;
   display: flex;
 }
@@ -173,19 +178,20 @@ h3
   margin: 20px 20px
 }
 
-.infos ul
+#img_entretien
 {
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+#img_entretien ul
+{
   text-align: center;
   list-style: none;
   padding: 0;
   color: #FFF;
   font-size: 17px;
   line-height: 2.5;
-  margin-top: 30px;
-  position: absolute;
-  left: 0;
-  right: 0;
 }
 
 footer
@@ -318,8 +324,81 @@ footer ul
     width: 60px;
   }
 
-  .down_arrow
+  #bot_bar a
   {
-    margin-left: calc(50vw - 130px)
+    margin-left: calc(50vw - 110px)
+  }
+
+  main
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .infos
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%
+  }
+
+  #aqua
+  {
+    flex-direction: row-reverse;
+  }
+
+  #img_ferme, #img_aquarium, #img_entretien
+  {
+    width: 50%;
+    height: 600px;
+  }
+
+  h2
+  {
+    font-size: 30px;
+  }
+
+  .titleButton
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .infos button
+  {
+    position: static;
+    font-size: 20px;
+    color: #FFF;
+    height: 55px;
+    width: 350px;
+    background-color: #011842;
+    border: solid 2px #FFF;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: auto;
+    border
+  }
+
+  .infos button:hover
+  {
+    color: #011842;
+    background-color: #FFF;
+    border: solid 2px #011842;
+  }
+
+  #img_entretien ul
+  {
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    line-height: 5;
+    align-self: center;
+    margin: 0
   }
 }
