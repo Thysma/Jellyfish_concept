@@ -60,7 +60,7 @@ nav
   display: none
 }
 
-#logo_basket
+.logo_basket
 {
   margin-right: 15px
 }
@@ -295,7 +295,7 @@ footer ul
     margin-left: 40px;
   }
 
-  #logo_basket
+  .logo_basket
   {
     margin-right: 0px;
   }
