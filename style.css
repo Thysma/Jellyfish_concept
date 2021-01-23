@@ -47,7 +47,7 @@ body
   padding-bottom: 80px
 }
 
-#top_bar
+#top-bar
 {
   width: 90%;
   display: flex;
@@ -60,7 +60,7 @@ nav
   display: none
 }
 
-.logo_basket_mobile
+.logo-basket
 {
   margin-right: 15px
 }
@@ -84,7 +84,7 @@ h1
   display: none;
 }
 
-#bot_bar
+#bot-bar
 {
   width: 90%;
   display: flex;
@@ -97,14 +97,14 @@ h1
   padding-bottom: 20px
 }
 
-.down_arrow
+.down-arrow
 {
   width: 50px;
   height: 50px;
   transform: rotate(90deg);
 }
 
-#bot_bar a
+#bot-bar a
 {
   margin-left: calc(50vw - 90px);
 }
@@ -125,7 +125,7 @@ h2
   margin: 20px 40px
 }
 
-#img_ferme
+#img-ferme
 {
   width: 300px;
   height: 230px;
@@ -136,7 +136,7 @@ h2
   display: flex;
 }
 
-#img_aquarium
+#img-aquarium
 {
   width: 300px;
   height: 230px;
@@ -147,7 +147,7 @@ h2
   display: flex;
 }
 
-#img_entretien
+#img-entretien
 {
   width: 300px;
   height: 230px;
@@ -183,13 +183,13 @@ h3
   margin: 20px 20px
 }
 
-#img_entretien
+#img-entretien
 {
   display: flex;
   justify-content: center;
 }
 
-#img_entretien ul
+#img-entretien ul
 {
   text-align: center;
   list-style: none;
@@ -221,13 +221,13 @@ footer ul
   margin-bottom: 50px;
 }
 
-.contact_messenger
+.contact-messenger
 {
   display: flex;
   align-items: center;
 }
 
-.contact_messenger img
+.contact-messenger img
 {
   width: 38px;
   height: 38px;
@@ -261,7 +261,7 @@ footer ul
     font-size: 15vh;
   }
 
-  #top_bar
+  #top-bar
   {
     display: none;
   }
@@ -295,7 +295,7 @@ footer ul
     margin-left: 40px;
   }
 
-  .logo_basket_desktop
+  .logo-basket
   {
     margin-right: 0px;
   }
@@ -321,7 +321,7 @@ footer ul
     flex-direction: column;
   }
 
-  #bot_bar
+  #bot-bar
   {
     width: 98%;
     display: flex;
@@ -333,7 +333,7 @@ footer ul
     height: 60px;
   }
 
-  #bot_bar a
+  #bot-bar a
   {
     margin-left: calc(50vw - 110px)
   }
@@ -360,7 +360,7 @@ footer ul
     flex-direction: row-reverse;
   }
 
-  #img_ferme, #img_aquarium, #img_entretien
+  #img-ferme, #img-aquarium, #img-entretien
   {
     width: 50%;
     height: 600px;
@@ -371,7 +371,7 @@ footer ul
     font-size: 30px;
   }
 
-  .titleButton
+  .title-button
   {
     display: flex;
     flex-direction: column;
@@ -400,7 +400,7 @@ footer ul
     border: solid 2px #011842;
   }
 
-  #img_entretien ul
+  #img-entretien ul
   {
     font-weight: 700;
     text-align: center;
